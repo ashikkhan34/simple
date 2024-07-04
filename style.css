@@ -1,0 +1,190 @@
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    color: white;
+    position: fixed;
+    background-color: rgb(20, 19, 22);
+    box-shadow: 0 0 50px rgb(122, 122, 122);
+    /* margin-bottom: 50px; */
+    width: 100%;
+    height: 5px;
+    top: 0;
+}
+.header :hover{
+    background-color: rgb(65, 59, 59);
+    transition: all ease-in .5s;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+
+    
+}
+.header ul :hover{
+    color: red;
+}
+.header ul li{
+    text-transform: capitalize;
+    margin: 50px;
+
+
+
+}
+.sideber{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 40px;
+    position: relative;
+    box-shadow: 0 0 30px white;
+    position: fixed;
+    margin-bottom: 1000px;
+}
+.sideber ul{
+    list-style: none;
+    position: absolute;
+    margin-right: 0;
+}
+.sideber ul li{
+    margin-right: 0;
+    padding: 9px;  
+    color: rgb(0, 17, 252); 
+
+
+}
+.sideber ul li:hover{
+    color: green;
+    font-size: 30px;
+}
+.LOGO{
+    font-size: 40px;
+    color: blue;
+    text-shadow: 5px 0 50px red;
+}
+.hack1{
+    display: flex;
+    margin-top: 200px;
+}
+.hack1 img{
+    height: auto;
+    width: 600px;
+}
+.about1{
+    color: rgb(107, 107, 107);
+    display: flex;
+    width: 600px;
+    font-size: large;
+    padding: 50px;
+}
+.about2{
+    display: flex;
+    padding: 50px;
+    margin-top: 100px;
+}
+.about2 h3{
+    width: 500px;
+    height: 400px;
+    color: rgb(73, 68, 68);
+}
+.about2 img{
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+}
+
+.about3 h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 120px;
+    color: rgb(41, 32, 32);
+}
+.about3 h1:hover {
+    /* background-color: red; */
+    color: blue;
+}
+.about3 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    color: rgb(77, 64, 64);
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+
+.about4{
+    /* padding: 50px; */
+    margin: 150px;
+}
+
+.about4 p{
+    color: rgb(148, 148, 147);
+    padding: 50px;
+}
+
+.about5{
+    width: 500px;
+    display: flex;
+    padding: 100px;
+}
+.hack2{
+    background-color: rgb(22, 22, 22);
+        margin: 50px;
+}
+.hack3{
+    background-color: rgb(22, 22, 22);
+    margin: 50px;
+}
+.hack4{
+    background-color: rgb(22, 22, 22);
+        margin: 50px;
+}
+.about5 p{
+    color: rgb(100, 80, 80);
+}
+.about5 :hover{
+    background-color: rgb(62, 62, 73);
+    transition: all ease 1.5s;
+    color: rgb(255, 255, 255);
+}
+.ashik img{
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+
+}
+.ashik h2{
+    padding: 60px;
+    color: rgb(61, 58, 58);
+}
+.ashik h2:hover{
+    color: blue;
+}
+
+.about6{
+    list-style: none;
+    display: flex;
+}
+.about6 ul{
+    margin: 170px;
+    margin-top: 2px;
+}
+
+.about6 ul li{
+    list-style: none;
+    padding: 5px;
+    color: rgb(94, 85, 85);
+    
+}
+.about6 ul :hover{
+    color: red;
+}
+
+.about7 h1{
+    text-align: center;
+    color: burlywood;
+    margin-top: 10px;
+}
