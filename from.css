@@ -1,0 +1,47 @@
+form{
+    border: 2px solid rgb(30, 10, 212);
+    width: fit-content;
+    padding: 40px;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.item label,input{
+        display: block;
+        padding: 5px; 
+}
+.item input{
+    border-radius: 10px;
+    border: .1px dotted red;
+}
+form:hover{
+    background-color: lightblue;
+    border-radius: 40px;
+    transition: all 1s;
+}
+
+.item input:hover{
+    background-color: rgb(180, 179, 216);
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+form > h1:hover{
+    color: gold;
+}
+textarea:hover{
+    background-color: rgb(222, 196, 247);
+}
+
+button{
+    background-color: blue;
+    color: azure;
+    border-radius: 52px 0 45px 0;
+}
+button:hover{
+    background-color: red;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
